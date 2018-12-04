@@ -3,6 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<style>
+		table{
+			border-collapse: collapse;
+			caption-side: bottom;
+			empty-cells: hide;
+		}
+	</style>
+
 </head>
 <body>
 
@@ -17,7 +25,8 @@
 
 
 
-	<table border="1" cellspacing="10" cellpadding="10">
+	<table border="1">
+		<caption>THis is table heading</caption>
 		<thead>
 			<tr>
 				<th>Sr#</th>
@@ -30,6 +39,11 @@
 				<td>1</td>
 				<td>Abc</td>
 				<td>123</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
 			</tr>
 		</tbody>
 		<tfoot>
