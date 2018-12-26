@@ -6,8 +6,17 @@
 </head>
 <body>
 	<?php
+	// switch (variable) {
+	// 	case 'value':
+	// 		# code...
+	// 		break;
+		
+	// 	default:
+	// 		# code...
+	// 		break;
+	// }
 
-echo `dir`;
+// echo `dir`;
 
 function run()
 {
