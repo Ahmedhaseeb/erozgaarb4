@@ -5,7 +5,6 @@
 	}
  ?>
 
- <a href="?abc=1">asdassd</a>
 <!DOCTYPE html>
 <html lang="en">
 <head>
