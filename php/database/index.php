@@ -40,7 +40,7 @@
 
 $q = "SELECT * FROM users";
 $stmt =  $db->query($q);
-
+// $stmt->execute();
 ?>
 <table>
 <thead>
