@@ -5,7 +5,7 @@
 		//This is the file where we save the    information
 		$fp = fopen (dirname(__FILE__) . '/salonspa7_new.zip', 'w+');
 		//Here is the file we are downloading, replace spaces with %20
-		$ch = curl_init(str_replace(" ","%20","https://armissalonandspa.com/salonspa7_new.zip"));
+		$ch = curl_init(str_replace(" ","%20","https://example.com/myfile.zip"));
 		curl_setopt($ch, CURLOPT_TIMEOUT, 50);
 		// write curl response to file
 		curl_setopt($ch, CURLOPT_FILE, $fp); 
