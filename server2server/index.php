@@ -1,5 +1,5 @@
 <?php
-// Enter you file path below
+	// Enter you file path below
 	$file_to_download = "enter_file_url_here_to_download";
 	define("DOWNLOAD_FROM", $file_to_download);
 	set_time_limit(0);
